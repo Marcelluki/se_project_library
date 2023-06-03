@@ -224,6 +224,9 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .staff__title {
@@ -308,11 +311,14 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-basis: auto;
 }
 
 .step {
-  /* Add styles */
+  max-width: 220px;
 }
 
 .step__title {
@@ -339,6 +345,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
@@ -346,6 +353,8 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
+  max-width: 154px;
+  margin-right: 120px;
   z-index: 1;
 }
 
@@ -354,6 +363,11 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 1;
+}
+.about__paragraph {
+  display: flex;
+  margin-bottom: 32px;
 }
 
 .about__circle {
@@ -361,6 +375,9 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  margin-top: -121px;
+  margin-left: -91px;
 }
 
 .footer {
