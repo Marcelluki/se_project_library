@@ -160,6 +160,9 @@
   color: #2f80ed;
   text-decoration: none;
 }
+.events__more:hover {
+  color: #1f69c9;
+}
 
 .events__cover {
   flex-grow: 1;
@@ -230,7 +233,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
